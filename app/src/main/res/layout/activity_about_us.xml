@@ -1,0 +1,154 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="About Us"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/white"/>
+
+    <!-- Item 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Image 1 -->
+        <ImageView
+            android:id="@+id/member1Image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/yuki"
+            android:scaleType="centerCrop"/>
+
+        <!-- Description 1 -->
+
+        <TextView
+            android:id="@+id/member1Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muhammad Ikhwan Bin Mohd Hafiz\n2021886066\nCS251"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_marginStart="16dp"/>
+    </LinearLayout>
+
+    <!-- Item 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Image 2 -->
+        <ImageView
+            android:id="@+id/member2Image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/hanna"
+            android:scaleType="centerCrop"/>
+
+        <!-- Description 2 -->
+        <TextView
+            android:id="@+id/member2Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nurhanna Binti Md Abd Wahid\n2021454338\nCS251"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_marginStart="16dp"/>
+    </LinearLayout>
+
+    <!-- Item 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Image 3 -->
+        <ImageView
+            android:id="@+id/member3Image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/intan"
+            android:scaleType="centerCrop"/>
+
+        <!-- Description 3 -->
+        <TextView
+            android:id="@+id/member3Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intan Zulaikha Binti Abu Kasim\n2021614512\nCS251"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_marginStart="16dp"/>
+    </LinearLayout>
+
+    <!-- Item 4 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Image 4 -->
+        <ImageView
+            android:id="@+id/member4Image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/farzanaaa"
+            android:scaleType="centerCrop"/>
+
+        <!-- Description 4 -->
+        <TextView
+            android:id="@+id/member4Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nur Farzana Huda Binti Hazlisham\n2021495042\nCS251"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_marginStart="16dp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/appDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="MyMap is an amazing app that allows you to explore and navigate user location and the nearest hospital/health clinic to the user. It provides a user-friendly experience for discovering the world around you.Check out our GitHub repository: https://github.com/naaWhd"
+        android:background="@color/white"/>
+
+    <!-- Copyright Notice -->
+    <TextView
+        android:id="@+id/copyrightNotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="© 2024 MyMap.All rights reserved."/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/baseline_home_24" />
+
+</LinearLayout>
+</ScrollView>
